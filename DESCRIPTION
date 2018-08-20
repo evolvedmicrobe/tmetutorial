@@ -1,0 +1,12 @@
+Package: tmetutorial
+Type: Package
+Title: 10X Tumor Microenvironment tutorial
+Version: 0.1.0
+Author: Qiang Gong and Nigel Delaney
+Maintainer: Nigel Delaney <nigel.delaney@10xgenomics.com>
+Description: Sample data and code to analyze single cell 10X data
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: Seurat (>= 2.3.4)
+RoxygenNote: 6.1.0
