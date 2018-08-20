@@ -1,0 +1,11 @@
+language: r
+sudo: required
+cache: packages
+os:
+  - linux
+  - osx
+addons:
+  apt:
+    packages:
+      libhdf5-dev
+warnings_are_errors: false
