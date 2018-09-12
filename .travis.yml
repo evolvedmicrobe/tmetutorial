@@ -8,4 +8,7 @@ addons:
   apt:
     packages:
       libhdf5-dev
+before_install:
+  - chmod +x install_hdf5.sh
+  - ./install_hdf5.sh
 warnings_are_errors: false
