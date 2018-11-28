@@ -47,7 +47,6 @@ library(tmetutorial)
 library(Seurat)
 library(dplyr)
 library(Matrix)
-library(formatR)
 # Load the NSCLC dataset, we've distributed this with R.
 gex.data <- Read10X(data.dir = tmetutorial::getSingleCellDataPath())
 # Keep all genes expressed in >= 3 cells. Keep all cells with at least 100 detected genes.
