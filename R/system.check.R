@@ -19,7 +19,7 @@ check_packages <- function() {
       bad = paste(bad_pkgs[is_dep], collapse = "\n")
       msg=paste("You have packages built under different versions of R than ",
                     "you are currently running.  This can lead to unexpected ",
-                    "behavior and possible crashes.  Please reinstall/update the follow packages ",
+                    "behavior and possible crashes.  Please reinstall/update the following packages ",
                     "before continuing:\n", bad, sep="", collapse = " ")
       stop(msg)
     }
