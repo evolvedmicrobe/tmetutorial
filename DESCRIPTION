@@ -8,5 +8,6 @@ Description: Sample data and code to analyze single cell 10X data
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Depends: Seurat (>= 2.3.4)
+Remotes: satijalab/seurat@release/3.0
+Depends: R (>= 3.5)
 RoxygenNote: 6.1.0
